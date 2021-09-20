@@ -1,0 +1,7 @@
+principal_amount=int(input('Introduza a quantia principal: '))
+interest_rate=float(input('Introduza a taxa de juro: '))
+p_interest_rate=float(interest_rate/100)
+frequency=int(input('Introduza a frequência com que os juros são pagos: '))
+years=int(input('Introduza o número de anos para os quais deseja calcular os juros: '))
+final_amount=(principal_amount*(1+p_interest_rate/frequency)**(frequency*years))
+print('A quantia final, após',str(years),'anos, é de',str(final_amount)+'.')

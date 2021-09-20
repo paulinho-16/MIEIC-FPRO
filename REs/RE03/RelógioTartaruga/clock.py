@@ -1,0 +1,18 @@
+import turtle
+campo=turtle.Screen()
+campo.bgcolor('lightgreen')
+tartaruga=turtle.Turtle()
+tartaruga.shape('turtle')
+tartaruga.color('blue')
+tartaruga.pensize(3)
+tartaruga.penup()
+for h in range(12):
+    tartaruga.forward(70)
+    tartaruga.pendown()
+    tartaruga.forward(10)
+    tartaruga.penup()
+    tartaruga.forward(20)
+    tartaruga.stamp()
+    tartaruga.backward(100)
+    tartaruga.right(30)
+campo.exitonclick()

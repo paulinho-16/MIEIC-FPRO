@@ -1,0 +1,10 @@
+palavra1='The '
+palavra2='quick '
+palavra3='brown '
+palavra4='fox '
+palavra5='jumps '
+palavra6='over '
+palavra7='the '
+palavra8='lazy '
+palavra9='dog.'
+print(palavra1+palavra2+palavra3+palavra4+palavra5+palavra6+palavra7+palavra8+palavra9)

@@ -1,0 +1,9 @@
+n1=int(input('Enter a number (not 0): '))
+n2=int(input('Enter another number (also not 0): '))
+divisao=n2
+contador=0
+while(divisao>=1):
+    contador+=1
+    divisao=(divisao//10)
+expoente=10**contador
+result=int(n1*expoente+n2)
